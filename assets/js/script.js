@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Nguyen Van Huynh";
-            $("#favicon").attr("href", ".assets/images/favicon.png");
+            $("#favicon").attr("href", "assets/images/anh1.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", ".assets/images/anh1.png");
+            $("#favicon").attr("href", "assets/images/anh1.jpg");
         }
     });
 
